@@ -1,0 +1,141 @@
+/* Define font family */
+@font-face {
+	font-family: "jive_font";
+	src: url("../fonts/jive.woff") format('woff');
+}
+
+@font-face {
+	font-family: "jive_font";
+	src: url("../fonts/jive_bold.woff") format('woff');
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "jive_font_large";
+	src: url("../fonts/jive_large.woff") format('woff');
+}
+
+body {
+	height: 100%;
+	width: 900px;
+	margin: auto;
+	margin-top: 0px;
+	font-family: "jive_font";
+	background-color: #FCAD00;
+}
+
+h1 {
+	font-size: 44px;
+}
+
+#title {
+	height: 60px;
+	margin-bottom: -10px;
+	padding-bottom: 5px;
+	text-align: center;
+	background-image: url('../images/blue3.jpg');
+}
+
+#content {
+	height: 80%;
+	width: 99%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 10px;
+	background-color: white;
+	box-shadow: 0px 2px 5px gray;
+}
+
+#banner {
+	height: 37px;
+	width: 101.2%;
+	margin: 0px;
+	margin-left: -10px;
+	background-color: #F0F0F0;
+}
+
+.menuitem {
+	float: left;
+	margin-right: -1px;
+	height: 25px;
+	width: 105px;
+	background-color: lightgray;
+	padding: 5px;
+	text-align: center;
+	border: 1px solid black;
+}
+
+.menuitem:link {
+	text-decoration: none;
+	color: black;
+}
+
+.menuitem:visited {
+	text-decoration: none;
+	color: black;
+}
+
+.menuitem:hover {
+	background-color: gray;
+}
+
+#selected {
+	background-color: white;
+	border-bottom: 1px solid white;
+}
+
+#namedisp {
+	float: right;
+	margin-top: 7px;
+}
+
+#logout {
+	float: right;
+	text-decoration: none;
+	margin-top: 7px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#footer {
+	height: 10%;
+	margin-top: -8px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+label {
+	display: inline-block;
+	width: 100px;
+	text-align: left;
+}
+
+input {
+	height: 25px;
+	width: 150px;
+	margin-bottom: 5px;
+	font-family: "jive_font_large";
+	font-size: 14px;
+}
+
+.submit {
+	width: auto;
+	height: 27px;
+	padding: 5px;
+	margin-left: 0px;
+	margin-top: 5px;
+	background-color: lightgray;
+	border: 2px solid black;
+	box-shadow: 0px 2px 5px gray;
+	font-size: 14px;
+	font-family: "jive_font";
+}
+
+.submit:hover {
+	background-color: gray;
+	color: white;
+}
+
+.err_msg {
+	color: white;
+}

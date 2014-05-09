@@ -1,0 +1,68 @@
+.myprojects {
+	height: 70%;
+	width: 47%;
+	margin-top: -4px;
+	background-color: #F0F0F0;
+	border: 1px solid black;
+	box-shadow: 0px 2px 5px gray;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+#createnew {
+	float: right;
+	margin-right: 20px;
+	height: 20px;
+	padding: 5px;
+	background-color: lightblue;
+	border: 2px solid black;
+	box-shadow: 0px 2px 5px gray;
+	text-decoration: none;
+	color: black;
+}
+
+#createnew:hover {
+	background-color: #7AACC2;
+}
+
+.project_link {
+	text-decoration: none;
+	color: black;
+	font-size: 22;
+}
+
+.project_link:hover {
+	background-color: lightgray;
+}
+
+.project_active {
+	margin-top: 0px;
+	background-color: lightblue;
+}
+
+.project_comp {
+	margin-top: 0px;
+	background-color: #ED6666;
+}
+
+.project_new {
+	margin-top: 0px;
+	background-color: #66DE76;
+}
+
+#mystats {
+	float:right;
+	margin-top: 2px;
+	margin-right: 365px;
+}
+
+#stats {
+	float: right;
+	margin-right: 10px;
+	text-align: center;
+}
+
+.statnum {
+	margin-top: 50px;
+	margin-bottom: -10px;
+}

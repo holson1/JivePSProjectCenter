@@ -1,0 +1,109 @@
+#newbanner {
+	height: 35px;
+	width: 101.1%; 
+	margin-left: -10px;
+	background-color: white;
+	border-bottom: 1px solid black;
+}
+
+#close {
+	margin-top: -1px;
+	background-color: white;
+	border-bottom: 3px solid white;
+	border-left: 1px solid white;
+}
+
+#close:hover {
+	background-color: gray;
+}
+
+#selected {
+	width: 105px;
+	margin-top: -1px;
+	border-bottom: 3px solid white;
+	border-right: 1px solid white;
+}
+
+input {
+	font-family: jive_font;
+	height: 28px;
+	width: 250px;
+	font-size: 16px;
+	border: none;
+	border-left: 1px solid #999;
+	outline: none;
+	padding-left: 10px;
+}
+
+label {
+	color: #999; 
+	height: 28px;
+	width: 243px;
+	font-size: 16px;
+	padding-left: 12px;
+	margin-right: -4px;
+	margin-bottom: -18px;
+}
+
+select {
+	font-family: jive_font;
+	height: 28px;
+	width: 250px;
+	font-size: 16px;
+	border: none;
+	border-left: 1px solid #999;
+	outline: none;
+	padding-left: 10px;
+	-webkit-appearance: none;
+	background: url("../images/new_arrow.jpeg") no-repeat right;
+}
+
+#projectname {
+	font-weight: bold;
+	height: 50px;
+	width: 800px;
+	font-size: 34px;
+}
+
+#details {
+	height: 100px;
+	width: 700px;
+	padding-top: 5px;
+	padding-left: 7px;
+	font-family: jive_font;
+	font-size: 16px;
+	outline: none;
+	border: 1px solid #999;
+}
+
+.submit {
+	box-shadow: none;
+	width: 100px;
+}
+
+.err_msg {
+	color: red;
+}
+
+#delete {
+	background-color: #ED6666;
+}
+
+#delete:hover {
+	background-color: red;
+}
+
+#warning {
+	float: right;
+	display: none;
+	margin-right: 320px;
+	margin-top: -50px;
+	padding: 5px;
+	border: 1px solid black;
+	box-shadow: 1px 1px 2px gray;
+	background-color: rgba(230,110,110,.7);
+}
+
+#warning > button {
+	margin-left: 10px;
+}

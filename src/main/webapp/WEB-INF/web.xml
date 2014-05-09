@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<web-app
+	xmlns="httpL//java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	version="2.5">
+	
+	<servlet>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>com.hco.app.Login</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/servlets/Login</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Logout</servlet-name>
+		<servlet-class>com.hco.app.Logout</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Logout</servlet-name>
+		<url-pattern>/servlets/Logout</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Register</servlet-name>
+		<servlet-class>com.hco.app.Register</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Register</servlet-name>
+		<url-pattern>/servlets/Register</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>NewProject</servlet-name>
+		<servlet-class>com.hco.app.NewProject</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>NewProject</servlet-name>
+		<url-pattern>/servlets/NewProject</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UpdateProject</servlet-name>
+		<servlet-class>com.hco.app.UpdateProject</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateProject</servlet-name>
+		<url-pattern>/servlets/UpdateProject</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DeleteProject</servlet-name>
+		<servlet-class>com.hco.app.DeleteProject</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteProject</servlet-name>
+		<url-pattern>/servlets/DeleteProject</url-pattern>
+	</servlet-mapping>
+</web-app>

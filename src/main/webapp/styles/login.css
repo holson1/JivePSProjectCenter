@@ -1,0 +1,18 @@
+#login {
+	margin-left: 70px;
+	padding-top: 5px;
+}
+
+aside {
+	float: right;
+	width: 380px;
+	margin-top: 2px;
+}
+
+.vr {
+	float: right;
+	height: 220px;
+	margin-top: 15px;
+	margin-right: 70px;
+	border-left: 2px solid white;
+}

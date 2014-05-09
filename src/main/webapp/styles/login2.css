@@ -1,0 +1,95 @@
+/* Define font family */
+@font-face {
+	font-family: "jive_font";
+	src: url("fonts/jive.woff") format('woff');
+}
+
+@font-face {
+	font-family: "jive_font";
+	src: url("fonts/jive_bold.woff") format('woff');
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "jive_font_large";
+	src: url("fonts/jive_large.woff") format('woff');
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	margin-left: 10px;
+	margin-top: 0px;
+	font-family: "jive_font";
+	/*background-image: url('images/blue.jpg');*/
+}
+
+h1 {
+	font-size: 44px;
+}
+
+aside {
+	float: right;
+	margin-right: 400px;
+	margin-top: 2px;
+}
+
+#title {
+	height: 60px;
+	margin-bottom: -10px;
+	padding-bottom: 5px;
+	text-align: center;
+	/*background-image: url('images/blue3.jpg');*/
+}
+
+#content {
+	height: 250px;
+	width: 100%;
+	margin-left: -10px;
+	padding-left: 10px;
+	padding-top: 1px;
+	background-color: #FCAD00;
+	box-shadow: 0px 2px 5px gray;
+}
+
+#footer {
+	height: 60%;
+	background-image: url('images/blue3.jpg');
+}
+
+label {
+	display: inline-block;
+	width: 100px;
+	text-align: left;
+}
+
+input {
+	height: 25px;
+	width: 150px;
+	margin-bottom: 5px;
+	font-family: "jive_font_large";
+	font-size: 14px;
+}
+
+.submit {
+	width: auto;
+	height: 27px;
+	padding: 5px;
+	margin-left: 0px;
+	background-color: lightblue;
+	border: 2px solid black;
+	font-size: 14px;
+	font-family: "jive_font";
+}
+
+.submit:hover {
+	background-color: gray;
+}
+
+.err_msg {
+	color: white;
+}
+
+hr {
+	margin-left: -10px;
+}
