@@ -1,22 +1,21 @@
-JivePSProjectCenter - Copyright Henry Olson 2014
+# JivePSProjectCenter
+## Copyright Henry Olson 2014
 
-*******
-PURPOSE
-*******
+
+Purpose
+------
 
 This website is intended to emulate a standard project management dashboard. It allows a user to create an account, log in, and view, create, and edit fictional projects.
 
-************
-TECHNOLOGIES
-************
+Technologies
+------
 
 Client-side: JSP, CSS, jQuery
 Server-side: Java (Servlet/JDBC APIs), PostgreSQL
 Development: Maven, Jetty, Eclipse
 
-*****
-TO-DO
-*****
+To-do
+------
 
 - Move leftover database logic from JSPs to Servlets or other Java classes
 - Replace servlets with Struts 2.0
