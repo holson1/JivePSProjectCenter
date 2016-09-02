@@ -8,9 +8,19 @@ This website is intended to emulate a standard project management dashboard. It 
 Technologies
 ------
 
-Client-side: JSP, CSS, jQuery
-Server-side: Java (Servlet/JDBC APIs), PostgreSQL
-Development: Maven, Jetty, Eclipse
+Client-side:
+- JSP
+- CSS
+- jQuery
+
+Server-side:
+- Java (Servlet/JDBC APIs)
+- PostgreSQL
+
+Development:
+- Maven
+- Jetty
+- Eclipse
 
 To-do
 ------
