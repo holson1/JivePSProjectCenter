@@ -1,6 +1,4 @@
 # JivePSProjectCenter
-## Copyright Henry Olson 2014
-
 
 Purpose
 ------
